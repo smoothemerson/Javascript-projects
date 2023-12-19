@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta https-equiv="refresh" content="60">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="Snake game.css">
+</head>
+
+<body>
+    <h1>Snake game</h1>
+
+    <p>
+        O jogo da Snake, também conhecido como jogo da cobrinha, é um jogo clássico de videogame em que o jogador
+        controla uma cobra que se move em um plano bidimensional. O objetivo do jogo é controlar a cobra para comer
+        itens de comida que aparecem aleatoriamente na tela. Cada vez que a cobra come um item de comida, seu tamanho
+        aumenta e sua velocidade pode aumentar também.
+    </p>
+    <p>
+        A dificuldade do jogo aumenta à medida que a cobra cresce, pois o jogador deve evitar colidir com seu próprio
+        corpo ou com as bordas da área de jogo. Se a cobra colidir, o jogo termina. O objetivo é conseguir a maior
+        pontuação possível antes que isso aconteça.
+    </p>
+
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <button id="resetBtn">Resetar</button>
+        <button id="startBtn">Começar</button>
+    </div>
+
+    <script src="Snake game.js"></script>
+</body>
+
+</html>

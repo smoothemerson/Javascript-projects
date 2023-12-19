@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+#countLabel{
+    text-align: center;
+    display: block;
+    font-size: 50px;
+}
+
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

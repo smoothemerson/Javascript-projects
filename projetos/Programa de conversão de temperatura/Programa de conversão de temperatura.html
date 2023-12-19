@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta https-equiv="refresh" content="60">
+    <title>Programa de conversão de temperatura</title>
+    <link rel="stylesheet" href="Programa de conversão de temperatura.css">
+</head>
+
+<body>
+    <h1>Programa de conversão de temperatura</h1>
+    <div class="div">
+
+        <label>Digite a temperatura</label><br>
+        <input type="text" id="textBox"><br>
+
+        <label>Converte de:</label><br>
+        <select id="fromUnitSelect">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select><br>
+
+        <label>Converte para:</label><br>
+        <select id="toUnitSelect">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select><br>
+
+        <button type="button" id="submitButton">Enviar</button><br>
+        <label id="tempLabel"></label>
+    </div>
+    <script src="Programa de conversão de temperatura.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta https-equiv="refresh" content="60">
+    <title>Pong game</title>
+    <link rel="stylesheet" href="Pong game.css">
+</head>
+
+<body>
+    <h1>Pong game</h1>
+
+    <p>
+        O Pong simula um jogo de tênis de mesa, no qual os jogadores controlam raquetes virtuais para rebater uma bola
+        de um lado para o outro em uma tela dividida.
+    </p>
+    <p>
+        As regras do Pong são simples. Os jogadores controlam uma raquete cada um, que pode se mover verticalmente na
+        tela. A bola começa no centro da tela e é lançada em direção a um dos jogadores. O objetivo de cada jogador é
+        usar a raquete para rebater a bola e fazê-la passar pelo oponente. O jogador que não consegue rebater a bola
+        perde um ponto, e o jogador que atinge um determinado número de pontos primeiro é declarado vencedor.
+    </p>
+
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0 : 0</div>
+        <button id="resetBtn">Resetar</button>
+        <button id="startBtn">Começar</button>
+
+    </div>
+
+    <script src="Pong game.js"></script>
+</body>
+
+</html>
