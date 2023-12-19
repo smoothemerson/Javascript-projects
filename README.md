@@ -18,7 +18,7 @@ Free course promoted by Bro Code to teach Javascript <br/>
 <br>
 
 <p align="center">
-  <img alt="Javascript course" src="./github/preview.png" width="600px" height="500px" >
+  <img alt="Javascript course" src="./github/preview.png" width="800px" height="500px" >
 </p>
 
 ## 🚀 Topics
