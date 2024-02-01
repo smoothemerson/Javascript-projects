@@ -9,23 +9,25 @@
 
   --color-body: #000000;
   --color-h1: #f5f5f5;
-  --color-h1-hover: #5f9ea0;
-  --color-button-a: #00ffff;
-  --color-button-a-hover: #deb887;
+  --color-button-a: #2020b8;
+  --color-button-a-hover: #0000ff;
 }
 
-body {
+body,
+button {
   font-size: 1.6rem;
   background-color: var(--color-body);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 h1 {
   color: var(--color-h1);
   text-align: center;
-}
-
-h1:hover {
-  color: var(--color-h1-hover);
 }
 
 button a {
