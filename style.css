@@ -22,7 +22,9 @@ button {
 .app {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
+
+    padding: 1.5rem;
 }
 
 h1 {
@@ -30,8 +32,14 @@ h1 {
   text-align: center;
 }
 
+button {
+  border: none;
+  text-align: left;
+}
+
 button a {
   color: var(--color-button-a);
+  text-decoration: none;
 }
 
 button a:hover {
