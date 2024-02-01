@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Javascript Projects" src="./github/preview.png" width="1000px" height="500px">
+  <img alt="Javascript Projects" src="./github/preview.png" width="100%" height="600px">
 </p>
 
 ## 🚀 Topics
