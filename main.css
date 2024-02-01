@@ -6,26 +6,32 @@
 
 :root {
   font-size: 62.5%;
+
+  --color-body: #000000;
+  --color-h1: #f5f5f5;
+  --color-h1-hover: #5f9ea0;
+  --color-button-a: #00ffff;
+  --color-button-a-hover: #deb887;
 }
 
 body {
   font-size: 1.6rem;
-  background-color: black;
+  background-color: var(--color-body);
 }
 
 h1 {
-  color: whitesmoke;
+  color: var(--color-h1);
   text-align: center;
 }
 
 h1:hover {
-  color: cadetblue;
+  color: var(--color-h1-hover);
 }
 
-buttom a {
-  color: aqua;
+button a {
+  color: var(--color-button-a);
 }
 
-buttom a:hover {
-  color: burlywood;
+button a:hover {
+  color: var(--color-button-a-hover);
 }
